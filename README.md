@@ -8,4 +8,4 @@ To manually install the package into your copy of TwistPHP follow the below step
 * Upload the `notifications` folder located in `\dist` to your frameworks `\packages` folder
 * Load the framework manager, go the packages page and click "Install" on the Notifications package
 
-For more information and guides on the installation of packages please visit https://twistphp.com/docs``
+For more information and guides on the installation of packages please visit https://twistphp.com/docs
