@@ -1,7 +1,7 @@
 [
   {
-	"name": "Notifications",
-	"uri": "notifications",
+	"name": "MailQueue",
+	"uri": "mailqueue",
 	"icon": "fa-comments",
 	"order": 55,
 	"sub-sections": []

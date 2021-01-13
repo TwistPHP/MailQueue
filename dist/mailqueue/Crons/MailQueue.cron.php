@@ -3,4 +3,4 @@
 	/**
 	 * Spool up a Twist Notification Queue Processor
 	 */
-	\Packages\notifications\Models\Queue::processor();
+	\Packages\mailqueue\Models\Queue::processor();
