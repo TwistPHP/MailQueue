@@ -33,8 +33,6 @@
 
 -- --------------------------------------------------------
 
-SELECT * FROM /*TWIST_DATABASE_TABLE_PREFIX*/`notifications`;
+SELECT * FROM /*TWIST_DATABASE_TABLE_PREFIX*/`mailqueue`;
 
-DROP TABLE IF EXISTS /*TWIST_DATABASE_TABLE_PREFIX*/`notifications`;
-
-DROP TABLE IF EXISTS /*TWIST_DATABASE_TABLE_PREFIX*/`notification_queue`;
+DROP TABLE IF EXISTS /*TWIST_DATABASE_TABLE_PREFIX*/`mailqueue`;

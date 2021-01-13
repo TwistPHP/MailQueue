@@ -9,11 +9,11 @@
 	//Optional Line: Add this line if you are removing all package settings
 	Twist::framework()->package()->removeSettings();
 
-	\Twist\Core\Models\ScheduledTasks::deletePackageTasks('notifications-queue');
+	\Twist\Core\Models\ScheduledTasks::deletePackageTasks('mailqueue');
 
 	/**
-	 * Remove all Lavish Shopping Hooks for the system
+	 * Remove all Hooks for the package
 	 */
-	\Twist::framework()->hooks()->cancel('TWIST_MANAGER_ROUTE','notifications-manager',true);
-	\Twist::framework()->hooks()->cancel('TWIST_MANAGER_MENU','notifications-manager-menu',true);
-	\Twist::framework()->hooks()->cancel('TWIST_MANAGER_MENU','notifications-method-email',true);
+	\Twist::framework()->hooks()->cancel('TWIST_MANAGER_ROUTE','mailqueue-manager',true);
+	\Twist::framework()->hooks()->cancel('TWIST_MANAGER_MENU','mailqueue-manager-menu',true);
+	\Twist::framework()->hooks()->cancel('TWIST_EMAIL_PREPROCESS','mailqueue',true);

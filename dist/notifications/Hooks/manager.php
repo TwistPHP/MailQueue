@@ -1,5 +1,5 @@
 <?php
 
-	\Twist::define('NOTIFICATIONS_VIEWS',dirname(__FILE__).'/../Views');
+	\Twist::define('MAILQUEUE_VIEWS',dirname(__FILE__).'/../Views');
 
-	$this -> controller( '/notifications/%', 'Packages\notifications\Controllers\Manager' );
+	$this -> controller( '/mailqueue/%', 'Packages\mailqueue\Controllers\Manager' );
