@@ -1,7 +1,7 @@
 {
   "name": "TwistPHP MailQueue",
   "description": "Manage outgoing emails in a queue, sends as a background task, very useful for large volumes of outgoing mail",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": {
 	"name": "Joe Blogs",
 	"website": "https://twistphp.com",
